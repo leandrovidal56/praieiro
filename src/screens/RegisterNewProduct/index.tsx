@@ -14,17 +14,20 @@ export function RegisterNewProduct ({navigation}: any) {
             <Container>
                 <Return 
                     title='CADASTRAR PRODUTO'
-                    />
+                />
+
                 <Input title='CATEGORIA'/>
                 <Input title='NOME'/>
-                <Input inputLarge='101' title='DESCRIÇÃO'/>
+                <Input inputHeight='101' title='DESCRIÇÃO'/>
                 <Input title='VALOR'/>
                 <InputPicture/>
                 <Picture/>
+
                 <Button 
-                title='SALVAR'
-                onPress={() => navigation.navigate('Products')}
-                />        
+                    title='SALVAR'
+                    onPress={() => navigation.navigate('Products')}
+                />     
+
             </Container>
             <Menu/>
         </All>

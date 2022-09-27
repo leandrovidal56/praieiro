@@ -1,15 +1,13 @@
 import styled from 'styled-components/native'
-import { RectButton } from 'react-native-gesture-handler';
+import { getBottomSpace, getStatusBarHeight } from 'react-native-iphone-x-helper';
 
 export const Container =  styled.View`
     flex: 1;
-    align-items: center;
-    margin-top: 30px;
 `
-export const Center = styled.View`
-
-
+export const Content = styled.View`
+    margin: ${16 + getStatusBarHeight()}px 16px ${16 + getBottomSpace()}px;
 `
+
 export const ForgotPassword = styled.Text`
     text-align: right;
     font-size: 13px;
@@ -24,9 +22,11 @@ export const LabelBold = styled.Text`
     text-align: center;
     margin-top: 5px;
 `
+
 export const Down = styled.View`
     margin-top: 52px;
 `
+
 export const Label = styled.Text`
     font-size: 14px;
     font-weight: 400;
@@ -35,5 +35,5 @@ export const Label = styled.Text`
     margin-top: 5px;
 `
 
-export const ChangeScreen =styled(RectButton)`
+export const ChangeScreen =styled.TouchableOpacity`
 `

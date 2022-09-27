@@ -5,7 +5,7 @@ export const Container = styled.View`
     height: 58px;
     margin-top: 25px;
     margin-bottom: 25px;
-    `
+`
 
 export const Photo = styled.View`
     width: 58px;
@@ -15,6 +15,7 @@ export const Photo = styled.View`
     margin-right: 10px;
     justify-content: center;
 `
+
 export const Title = styled.Text`
     font-size: 13px;
     font-weight: 900;

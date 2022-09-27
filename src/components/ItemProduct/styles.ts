@@ -4,7 +4,6 @@ export const Content = styled.View`
     flex-direction: row;
     width: 100%;
     align-items: center;
-    /* justify-content: space-between; */
     margin-top: 20px;
 `
 
@@ -19,9 +18,7 @@ export const Picture = styled.View`
 export const Description = styled.View`
     height: 40px;
     justify-content: space-between;
-    /* background-color: yellow; */
     width: 75%;
-    
 `
 
 export const Title = styled.Text`
@@ -46,5 +43,4 @@ export const SubTitle = styled.Text`
 `
 export const Settings = styled.View`
     align-items: flex-end;
-    /* background-color: red; */
 `

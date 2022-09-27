@@ -2,11 +2,11 @@ import styled from 'styled-components/native';
 
 
 export const Container = styled.View`
-    align-items: flex-end;
     justify-content: center;
     height: 75px;
     margin-top: 65px;
     margin-bottom: 100px;
+    align-items: center;
 `
 
 export const Title = styled.Text`
@@ -15,7 +15,7 @@ export const Title = styled.Text`
     line-height: 54px;
     font-weight: 400;
 `
-export const Sub = styled.View`
+export const Content = styled.View`
 align-items: flex-end;
 `
 export const SubTitle = styled.Text`

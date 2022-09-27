@@ -17,10 +17,11 @@ export function Return ({title}: Props) {
                 color="#000000"
                 onPress={() => navigation.goBack()}
             />
+
             <Content>
-            <Title>
-                {title}
-            </Title>
+                <Title>
+                    {title}
+                </Title>
             </Content>
 
         </Container>

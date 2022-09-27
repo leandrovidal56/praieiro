@@ -26,16 +26,15 @@ export function Products ({navigation}: any) {
                     </Description>
                 </Content>
                 <Button 
-                title='CADASTRAR'
-                onPress={() => navigation.navigate('RegisterNewProduct')}    
+                    title='CADASTRAR'
+                    onPress={() => navigation.navigate('RegisterNewProduct')}    
                 />
-                <ItemProduct
-                    title='Pastel de Queijo'
+                    <ItemProduct
+                        title='Pastel de Queijo'
                     />
-                <ItemProduct
-                    title='Coxinha'
+                    <ItemProduct
+                        title='Coxinha'
                     />
-                
             </Container>
             <Menu/>
         </All>

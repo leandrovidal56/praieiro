@@ -1,24 +1,24 @@
 import React from 'react'
-import { Container, ChangeScreen, Title } from './styles'
-import { useNavigation } from '@react-navigation/native';
+import { Container, Title } from './styles'
 
 type Props = {
+    title?: string;
     width?: number;
-    title: string;
-    border?: string;
-    colorText?: string;
-    background?: string;
     marginTop?: number;
     onPress?: () => void;
+    outLine?: boolean;
 };
 
-export function Button ({width, title, border, colorText, background, marginTop, onPress }: Props) {
+export function Button ({width, title, outLine, marginTop, onPress }: Props) {
     return (
-    <ChangeScreen onPress={onPress}>
 
-    <Container width={width} background= {background} borderColor={border} marginTop={marginTop}>
-            <Title color={colorText}>{title}</Title>
+    <Container 
+        width={width} 
+        outLine={outLine}
+        marginTop={marginTop} 
+        onPress={onPress}
+    >
+        <Title outLine={outLine}>{title}</Title>
     </Container>
-    </ChangeScreen>
     )
 }

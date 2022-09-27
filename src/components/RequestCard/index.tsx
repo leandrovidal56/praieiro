@@ -13,6 +13,7 @@ export function RequestCard ({date, name, distance}: Props) {
         <Container>
             <Date>{date}</Date>
             <Content>
+
                 <User>
                     <Picture/>
                     <Description>
@@ -20,21 +21,17 @@ export function RequestCard ({date, name, distance}: Props) {
                         <Distance>{distance}</Distance>
                     </Description>
                 </User>
-                <ButtonRow>
 
-                <Button width={40} title='ATENDER' />
-                <Button 
-                    width={40}
-                    title='RECUSAR' 
-                    background='#FFF' 
-                    colorText='#1E90FF'
-                    border='#1E90FF'
-                />
+                <ButtonRow>
+                    <Button width={40} title='ATENDER' />
+                    <Button 
+                        width={40}
+                        title='RECUSAR' 
+                        outLine
+                    />
                 </ButtonRow>
-                
 
             </Content>
-
         </Container>
     )
 }

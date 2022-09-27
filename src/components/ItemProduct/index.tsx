@@ -12,10 +12,12 @@ export function ItemProduct ({title, subTitle}: Props) {
     return (
         <Content>
             <Picture/>
+
             <Description>
                 <Title>{title}</Title>
                 <SubTitle>{subTitle ? subTitle : 'Descrição'}</SubTitle>
             </Description>
+
             <Settings>
                 <Icon 
                     name="dots-three-vertical"
@@ -23,6 +25,7 @@ export function ItemProduct ({title, subTitle}: Props) {
                     color="#1E90FF"
                 />
             </Settings>
+            
         </Content>
     )
       

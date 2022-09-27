@@ -19,7 +19,7 @@ export function ChangePassword ({navigation}: any) {
                 onPress={() => navigation.goBack()}
             />
             <Label
-            title="Enviaremos um e-mail para fazer a redefinição de sua senha. Se não encontrar na sua caixa de entrada, procure também na sua caixa de spam."
+                title="Enviaremos um e-mail para fazer a redefinição de sua senha. Se não encontrar na sua caixa de entrada, procure também na sua caixa de spam."
             />
         </Container>
     )

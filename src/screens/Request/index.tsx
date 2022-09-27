@@ -16,27 +16,26 @@ export function Request () {
             <Container>
                 <Return 
                     title='SOLICITAÇÕES'
-                    />
+                />
                <RequestCard
-                date='Qua, 8 de Jun 2021'
-                name='Pedro'
-                distance='5 KM'
-               />
+                    date='Qua, 8 de Jun 2021'
+                    name='Pedro'
+                    distance='5 KM'
+                />
                <RequestCard
-                date='Qua, 8 de Jun 2021'
-                name='Pedro'
-                distance='5 KM'
-               />
+                    date='Qua, 8 de Jun 2021'
+                    name='Pedro'
+                    distance='5 KM'
+                />
                <AvaliableCard
-                date='Qua, 8 de Jun 2021'
-                name='Roberto'
-                note={3.5}
-               />
+                    date='Qua, 8 de Jun 2021'
+                    name='Roberto'
+                    note={3.5}
+                />
                <AvaliableCard
-                date='Qua, 8 de Jun 2021'
-                name='Amaral'
-               />
-
+                    date='Qua, 8 de Jun 2021'
+                    name='Amaral'
+                />
             </Container>
             <Menu/>
         </All>

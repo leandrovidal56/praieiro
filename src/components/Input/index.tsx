@@ -1,18 +1,15 @@
 import React from 'react';
-import { Container, Text, Title } from './styles';
+import { InputText } from './styles';
 
  type Props = {
-    inputLarge?: string;
+    inputHeight?: string;
     title?: string;
     text?: string;
     marginBottom?: number;
 };
 
-export function Input ({inputLarge, title, text, marginBottom}: Props) {
+export function Input ({inputHeight, title, text, marginBottom}: Props) {
     return (
-        <Container inputLarge={inputLarge} marginBottom={marginBottom}>
-            <Title>{title}</Title>
-            <Text>{text}</Text>
-        </Container>
+        <InputText placeholder={title || text} inputHeight={inputHeight} marginBottom={marginBottom}/>
     )
 }

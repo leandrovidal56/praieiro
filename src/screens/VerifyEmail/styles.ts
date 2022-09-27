@@ -29,7 +29,6 @@ export const Acess = styled.Text`
     line-height: 21px;
     letter-spacing: -0.015em;
     text-align: center;
-    /* margin-bottom: 56px; */
 `
 
 export const SubTitle = styled.Text`

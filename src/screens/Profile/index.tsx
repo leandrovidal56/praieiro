@@ -16,6 +16,7 @@ export function Profile ({navigation}: any) {
                     title="PERFIL"
                     />
                 <Header>Fulano Junior</Header>
+
                 <LineEmail>
                     <Icon 
                         name="star"
@@ -25,30 +26,33 @@ export function Profile ({navigation}: any) {
 
                     <Email>3,6 - usuario@gmail.com</Email>
                 </LineEmail>
-                <Input 
-                    text='ZÉ DO PASTEL'
-                    />
+
+                <Input text='ZÉ DO PASTEL'/>
                 <Input 
                     text='(81) 91234 -5678'
                     marginBottom={1}
-                    />
+                />
+
                 <Button
                     title='ATUALIZAR'
                     marginTop={0}
-                    />
+                />
+
                 <Button 
                     title='REDEFINIR SENHA' 
-                    background='#FFF' 
-                    colorText='#1E90FF'
-                    border='#1E90FF'
+                    outLine
                     marginTop={94}
                     onPress={() => navigation.navigate('ChangePassword')}    
-                    />
-                <Label
-                title="Enviaremos um e-mail para fazer a redefinição de sua senha. Se não encontrar na sua caixa de entrada, procure também na sua caixa de spam."
                 />
+
+                <Label
+                    title="Enviaremos um e-mail para fazer a redefinição de sua senha. Se não encontrar na sua caixa de entrada, procure também na sua caixa de spam."
+                />
+
             </Container>
+
             <Menu/>
+            
         </All>
     )
 

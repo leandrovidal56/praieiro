@@ -15,9 +15,9 @@ export function AvaliableCard ({date, name, note}: Props) {
             <Content>
                 <User>
                     <Picture/>
+                    
                     <Description>
                         <Name>{name}</Name> 
-              
                             <LineNote>
                                 <Note>{note ? 'Avaliado -' : 'Cancelado'} </Note>
                                 <Note>{note ?  <Icon 

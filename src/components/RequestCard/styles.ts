@@ -26,7 +26,7 @@ export const Picture = styled.View`
     height: 58px;
     border-radius: 28px;
     background: #C4C4C4;
-    `
+`
 
 export const Description = styled.View`
     margin-left: 7px;

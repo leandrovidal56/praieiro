@@ -1,13 +1,13 @@
 import React from 'react';
-import { Container, Title, SubTitle, Sub } from './styles';
+import { Container, Title, SubTitle, Content } from './styles';
 
 export function Header() {
     return (
         <Container> 
-            <Sub>
-            <Title>PraieiroApp</Title>
+            <Content>
+                <Title>PraieiroApp</Title>
                 <SubTitle>Vendedor</SubTitle>
-            </Sub>
+            </Content>
         </Container>
     );
 }
