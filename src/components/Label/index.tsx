@@ -5,7 +5,7 @@ type Props = {
     title: string;
 };
 
-export function Label ({title}: Props) {
+export default function Label ({title}: Props) {
     return (
     <SubTitle>
         {title}

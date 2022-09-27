@@ -8,7 +8,7 @@ import { InputText } from './styles';
     marginBottom?: number;
 };
 
-export function Input ({inputHeight, title, text, marginBottom}: Props) {
+export default function Input ({inputHeight, title, text, marginBottom}: Props) {
     return (
         <InputText placeholder={title || text} inputHeight={inputHeight} marginBottom={marginBottom}/>
     )

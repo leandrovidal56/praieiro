@@ -9,7 +9,7 @@ type Props = {
     outLine?: boolean;
 };
 
-export function Button ({width, title, outLine, marginTop, onPress }: Props) {
+export default function Button ({width, title, outLine, marginTop, onPress }: Props) {
     return (
 
     <Container 

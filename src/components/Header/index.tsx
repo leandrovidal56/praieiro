@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Title, SubTitle, Content } from './styles';
 
-export function Header() {
+export  default function Header() {
     return (
         <Container> 
             <Content>

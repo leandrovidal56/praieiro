@@ -1,11 +1,14 @@
-import { Button } from '@components/Button'
-import { Input } from '@components/Input'
-import { Label } from '@components/Label'
-import { Return } from '@components/Return'
 import React from 'react'
-import { All, Container, Email, Header, LineEmail } from './styles'
+
 import Icon from 'react-native-vector-icons/Entypo';
-import { Menu } from '@components/Menu'
+
+import  Button  from '@components/Button'
+import  Input  from '@components/Input'
+import  Label  from '@components/Label'
+import  Return  from '@components/Return'
+import  Menu  from '@components/Menu'
+
+import { All, Container, Email, Header, LineEmail } from './styles'
 
 export function Profile ({navigation}: any) {
     return (

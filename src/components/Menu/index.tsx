@@ -5,7 +5,7 @@ import Icon3 from 'react-native-vector-icons/FontAwesome';
 
 import { ChangeScreen, Container } from './styles';
 
-export function Menu ({navigation}: any) {
+export default function Menu ({navigation}: any) {
     return(
         <Container>
             <ChangeScreen

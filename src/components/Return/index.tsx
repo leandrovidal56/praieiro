@@ -7,7 +7,7 @@ type Props = {
     title?: string;
 }
 
-export function Return ({title}: Props) {
+export default function Return ({title}: Props) {
     const navigation = useNavigation(); 
     return (
         <Container>

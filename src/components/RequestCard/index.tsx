@@ -1,4 +1,4 @@
-import { Button } from '@components/Button';
+import  Button  from '@components/Button';
 import React from 'react';
 import { ButtonRow, Container, Content, Date, Description, Distance, Name, Picture, User } from './styles';
 
@@ -8,7 +8,7 @@ type Props = {
     distance: string;
 }
 
-export function RequestCard ({date, name, distance}: Props) {
+export default function RequestCard ({date, name, distance}: Props) {
     return (
         <Container>
             <Date>{date}</Date>

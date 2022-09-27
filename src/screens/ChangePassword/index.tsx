@@ -1,8 +1,10 @@
-import { Button } from '@components/Button'
-import { Input } from '@components/Input'
-import { Label } from '@components/Label'
-import { Return } from '@components/Return'
 import React from 'react'
+
+import Button from '@components/Button'
+import Input from '@components/Input'
+import Label from '@components/Label'
+import Return from '@components/Return'
+
 import { Container } from './styles'
 
 export function ChangePassword ({navigation}: any) {

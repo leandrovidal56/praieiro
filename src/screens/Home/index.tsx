@@ -1,8 +1,9 @@
 
-import  {Header} from '@components/Header';
-import  {Input} from '@components/Input';
+import  Header from '@components/Header';
+import  Input from '@components/Input';
+import  Button  from '@components/Button';
+
 import { Content, Container, ForgotPassword, LabelBold, Label, Down, ChangeScreen } from './styles';
-import { Button } from '@components/Button';
 
 export  function Home({ navigation }: any) {
   return (

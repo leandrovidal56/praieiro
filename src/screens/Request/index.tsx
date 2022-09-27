@@ -1,13 +1,11 @@
-import { Input } from '@components/Input';
 import React from 'react';
-import { Button } from '@components/Button';
+
+import Return from '@components/Return';
+import Menu from '@components/Menu';
+import RequestCard from '@components/RequestCard';
+import AvaliableCard from '@components/AvaliableCard';
+
 import { All, Container} from './styles';
-import { Return } from '@components/Return';
-import { InputPicture } from '@components/InputPIcture';
-import { Picture } from '@components/Picture';
-import { Menu } from '@components/Menu';
-import { RequestCard } from '@components/RequestCard';
-import { AvaliableCard } from '@components/AvaliableCard';
 
 
 export function Request () {

@@ -8,7 +8,7 @@ type Props = {
     note?: number;
 }
 
-export function AvaliableCard ({date, name, note}: Props) {
+export default function AvaliableCard ({date, name, note}: Props) {
     return (
         <Container>
             <Date>{date}</Date>

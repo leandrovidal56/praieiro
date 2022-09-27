@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Photo, Title } from './styles';
 
-export function Picture () {
+export default function Picture () {
     return  (
         <Container>
             <Photo>

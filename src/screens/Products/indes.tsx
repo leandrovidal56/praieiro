@@ -1,10 +1,13 @@
-import { Return } from '@components/Return'
 import React from 'react'
-import { All, Container, Content, Description, Picture, ProductName, Star, SubTitle, Title } from './styles'
+
 import Icon from 'react-native-vector-icons/Entypo';
-import { Button } from '@components/Button';
-import { ItemProduct } from '@components/ItemProduct';
-import { Menu } from '@components/Menu';
+
+import  Return  from '@components/Return'
+import  Button  from '@components/Button';
+import  ItemProduct  from '@components/ItemProduct';
+import  Menu  from '@components/Menu';
+
+import { All, Container, Content, Description, Picture, ProductName, Star, SubTitle, Title } from './styles'
 
 export function Products ({navigation}: any) {
     return (

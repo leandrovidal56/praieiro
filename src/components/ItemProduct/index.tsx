@@ -8,7 +8,7 @@ type Props = {
     subTitle?: string;
 }
 
-export function ItemProduct ({title, subTitle}: Props) {
+export default function ItemProduct ({title, subTitle}: Props) {
     return (
         <Content>
             <Picture/>

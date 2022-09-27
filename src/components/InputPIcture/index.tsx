@@ -4,9 +4,9 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 
 
 
-export function InputPicture  ()  {
+export default function InputPicture  ()  {
     return (
-        <Container>
+        <Container >
              <Icon 
                 name="cloud-upload"
                 size={24}

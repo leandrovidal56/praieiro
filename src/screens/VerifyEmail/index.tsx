@@ -1,6 +1,8 @@
-import { Button } from '@components/Button'
-import { Return } from '@components/Return'
 import React from 'react'
+
+import Button from '@components/Button'
+import Return from '@components/Return'
+
 import { Acess, AcessBold,  Container,  Header, LineAcess, SubTitle } from './styles'
 
 export function VerifyEmail () {

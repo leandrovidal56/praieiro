@@ -1,8 +1,10 @@
-import { Input } from '@components/Input';
 import React from 'react';
-import { Button } from '@components/Button';
+
+import Input from '@components/Input';
+import Button from '@components/Button';
+import Return from '@components/Return';
+
 import { Container} from './styles';
-import { Return } from '@components/Return';
 
 
 export function Register ({navigation}: any) {
